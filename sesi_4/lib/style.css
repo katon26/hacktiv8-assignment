@@ -1,0 +1,55 @@
+body {
+    background-color: lightgrey;
+    margin: 0;
+}
+
+#welcome h1 {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#blog {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#nav1 {
+    background: #ff9800;
+    border-radius: 0;
+    margin: 1em 0;
+    
+}
+
+#nav1 a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#article .article {
+    background-color: #ffffff;
+}
+
+.thumbnail {
+    border : 0;
+}
+
+.author-post {
+    font-size: 10px;
+    text-align-last: right;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+#sidebar {
+    background-color: #ffffff;
+}
+
+#sidebar .card-title-side {
+    font-weight: bold;
+    color: blue;
+}
