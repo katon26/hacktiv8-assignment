@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Assignment Sesi 5</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+        <!-- Main Stylesheet File -->
+        <link rel="stylesheet" type="text/css" href="lib/css/style.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Main JavaScript -->
+        <script src="lib/js/main.js"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+            
+        </div>
+        <nav class="nav">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="">HOME</a></li>
+                <li><a href="">PRODUCT</a></li>
+                <li><a href="">GALLERY</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">INVENTORY</a></li>
+            </ul>
+        </nav>
+            <div id="profile" class="profile">
+                <ul>
+                    <li>
+                        <img src="img/ava.jpg" alt="profile pic">
+                    </li>
+                </ul>
+                                        
+                <ul>
+                    <li class="info1">
+                        <h1 id="profile_name">Nama Anda</h1>
+                        <p id="profile_role">Front End Designer</p>
+                        <button id="edit" class="btn btn-primary" type="button" onclick="TampilkanData()">Edit</button>
+                        <button id="resume" class="btn btn-default" type="button">Resume</button>
+                    </li>
+
+                    <li class="info2">
+                        <p>Availability</p>
+                        <p>Usia</p>
+                        <p>Lokasi</p>
+                        <p>Pengalaman</p>
+                        <p>Email</p>
+                    </li>
+
+                    <li class="info3">
+                        <p id="profile_avail">Full Time</p>
+                        <p id="profile_age">19</p>
+                        <p id="profile_location">Jakarta</p>
+                        <p id="profile_experience">2</p>
+                        <p id="profile_email">email@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        
+
+        <div id="form" class="form">
+            <form>
+                <label for="lame">Nama</label>
+                <br>
+                <input id="name" type="text" name="name" value="Katon Adams Fitrianto" required><br>
+                
+                <br>
+
+                <label for="role">Role</label>
+                <br>
+                <input id="role" type="text" name="role" value="Front End Designer" required><br>
+                
+                <br>
+
+                <label for="avail">Availability</label>
+                <br>
+                <input id="avail" type="text" name="avail" value="Full Time" required><br>
+                
+                <br>
+
+                <label for="age">Usia</label>
+                <br>
+                <input id="age" type="number" name="age" value="20" required><br>
+                
+                <br>
+
+                <label for="location">Lokasi</label>
+                <br>
+                <input id="location" type="text" name="location" value="Yogyakarta" required><br>
+                
+                <br>
+
+                <label for="experience">Years Experience</label>
+                <br>
+                <input id="experience" type="text" name="experience" value="2" required><br>
+                
+                <br>
+
+                <label for="email">Email</label>
+                <br>
+                <input id="email" type="email" name="email" value="katonadams.f@gmail.com" required><br>
+                
+                <br>
+                
+                <br> 
+            </form>
+            <button class="btn" type="submit" onclick="SimpanForm()">SUBMIT</button>
+        </div>
+
+    </body>
+</html>
