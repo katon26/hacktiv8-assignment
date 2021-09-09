@@ -1,0 +1,40 @@
+// ALGORITMA
+
+Deklarasi :
+- variabel phi
+- variabel jari-jari
+- variabel luas
+- variabel keliling
+- Menentukan nilai phi = 3.14
+
+Input :
+Memasukkan nilai jari-jari oleh pengguna
+
+Proses :
+- Menghitung luas lingkaran sesuai dengan rumus yang sudah ditentukan 
+  (luas = phi * jari-jari * jari-jari)
+- Memasukkan hasil perhitungan ke dalam variabel luas
+- Menghitung keliling lingkaran sesuai dengan rumus yang sudah ditentukan
+  (keliling = 2 * phi * jari-jari)
+- Memasukkan hasil perhitungan ke dalam variabel keliling
+
+Output :
+- Menampilkan nilai luas lingkaran
+- Menampilkan nilai keliling lingkaran
+
+
+
+// PSEUDOCODE
+STORE "phi" with 3.14
+STORE "jari_jari" with any value
+STORE "luas" without any value
+STORE "keliling" without any value
+
+CALCULATE "phi" times "jari_jari" times "jari_jari"
+SET "luas" value with calculation result
+
+CALCULATE 2 times "phi" times "jari_jari"
+SET "keliling" value with calculation result
+
+DISPLAY "luas"
+DISPLAY "keliling"
