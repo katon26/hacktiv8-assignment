@@ -24,13 +24,15 @@ function App() {
   const handleIsValue = (value) =>{
     setisDisable(value)
   }
+  
+  const arrow = "=>"
 
   function btnAntri() {
     if(antri[0] === '[ Antrian Kosong ! ]'){
       setAntri(antri => [...antri.slice(1), name])
     }
     else{
-      setAntri(antri => [...antri ,name])
+      setAntri(antri => [...antri, [arrow],name])
     }
   }
 
@@ -67,7 +69,8 @@ function App() {
 
         <div>
           {
-            antri.length === 0 ?
+            antri.length === 0 
+              ?
               <p>[ Antrian Kosong ! ]</p>
               :
               antri.map((name, i) => (
