@@ -1,0 +1,25 @@
+{
+  "name": "hacktiv8-assignment",
+  "version": "1.0.0",
+  "description": "Repository ini untuk pengumpulan tugas pada setiap sesi yang diikuti",
+  "main": "index.js",
+  "dependencies": {
+    "node": "^16.6.1",
+    "react-router-dom": "^5.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katon26/hacktiv8-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katon26/hacktiv8-assignment/issues"
+  },
+  "homepage": "https://github.com/katon26/hacktiv8-assignment#readme"
+}
