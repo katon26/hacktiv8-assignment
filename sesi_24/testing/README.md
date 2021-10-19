@@ -1,0 +1,11 @@
+## Testing React Native with Jest and Enzyme library
+
+### `yarn test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+
+### Result
+![Test Result](img/test-result.jpg)
+
